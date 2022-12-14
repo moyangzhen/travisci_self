@@ -1,12 +1,12 @@
 language: node_js
 node_js:
-  - "14"
+  - "10"
 
 cache:
   yarn: true
 
 install:
-  - yarn install
+  - npm install
 
 script:
   - npm run build
